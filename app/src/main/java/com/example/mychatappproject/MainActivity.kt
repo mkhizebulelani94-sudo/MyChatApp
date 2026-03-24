@@ -86,6 +86,11 @@ class MainActivity : ComponentActivity() {
 
 
         }
+        //Reset Button
+        resetButton.setOnClickListener {
+            textInput.text.clear()
+            resultText.text = "Response shown here"
+        }
 
 
         }
