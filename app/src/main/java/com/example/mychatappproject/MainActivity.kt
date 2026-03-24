@@ -34,6 +34,20 @@ class MainActivity : ComponentActivity() {
         checkButton.setOnClickListener {
             val text = textInput.text.toString().uppercase()
 
+            if (text == "Good morning"){
+                resultText.text = "Good morning my good friend, how are you?"
+            }
+            else if (text == "Hello"){
+                resultText.text = "Hi"
+            }
+            else if (text == "How are you?"){
+                resultText.text = "I am good and you master?"
+            }
+            else if (text == "I am good"){
+                resultText.text = "Wonderful Master!"
+            }
+            else if (text == "")
+
 
 
 
