@@ -34,47 +34,61 @@ class MainActivity : ComponentActivity() {
             val text = textInput.text.toString().uppercase()
 
             if (text == "Good morning"){
-                resultText.text = "Good morning my good friend, how are you?"
+                resultText.text = "Good morning my good friend, how are you"
             }
+
             else if (text == "Hello"){
                 resultText.text = "Hi"
             }
+
             else if (text == "How are you?"){
                 resultText.text = "I am good and you master?"
             }
+
             else if (text == "I am good"){
                 resultText.text = "Wonderful Master!"
             }
+
             else if (text == "Good Afternoon"){
                 resultText.text = "Good Afternoon Master, have you eaten lunch yet?"
             }
+
             else if (text == "I have eaten lunch"){
                 resultText.text = "That is good to hear Master."
             }
+
             else if (text == "I am hungry"){
                 resultText.text = "I recommend you make egg and bacon rolls with a salad on the side"
             }
+
             else if (text == "It is around midday now"){
                 resultText.text = "You should be getting ready for your afternoon workout"
             }
+
             else if (text == "I am up early this morning"){
                 resultText.text = "Go back to sleep Master!"
             }
+
             else if (text == "Good evening"){
                 resultText.text = "Good evening Master, did you have an eventful day?"
             }
+
             else if (text == "Yes I did"){
                 resultText.text = "That is great Master!"
             }
+
             else if (text == "No I did not"){
                 resultText.text = "I am sorry Master :("
             }
+
             else if (text == "You are amazing"){
                 resultText.text = "Thank you soo much Master!"
             }
+
             else if (text == "Good night "){
                 resultText.text = "Good night Master, you must sleep well"
             }
+
             else {
                 resultText.text = "Not Accepted Input"
             }
@@ -95,5 +109,5 @@ class MainActivity : ComponentActivity() {
         }
 
 
-        }
     }
+}

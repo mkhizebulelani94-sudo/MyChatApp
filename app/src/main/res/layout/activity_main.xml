@@ -42,6 +42,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Response shown here"
+    android:textSize="25dp"
+    android:textAppearance="@color/black"
     android:textStyle="italic" />
 
 <Button
