@@ -20,13 +20,12 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
         setContentView(R.layout.activity_main)
 
         //Variable Declarations
 
         val textInput = findViewById<EditText>(R.id.txtGreetingIt)
-        val resultText = findViewById<TextView>(R.id.txtGreetingIt)
+        val resultText = findViewById<TextView>(R.id.txtRespond)
         val checkButton = findViewById<Button>(R.id.btnCheck)
         val resetButton = findViewById<Button>(R.id.btnReset)
 
@@ -73,6 +72,9 @@ class MainActivity : ComponentActivity() {
             else if (text == "You are amazing"){
                 resultText.text = "Thank you soo much Master!"
             }
+            else if (text == "Good night "){
+                resultText.text = "Good night Master, you must sleep well"
+            }
             else {
                 resultText.text = "Not Accepted Input"
             }
@@ -95,4 +97,3 @@ class MainActivity : ComponentActivity() {
 
         }
     }
-}
