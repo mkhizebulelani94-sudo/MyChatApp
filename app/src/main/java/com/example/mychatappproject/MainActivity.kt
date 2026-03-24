@@ -46,7 +46,16 @@ class MainActivity : ComponentActivity() {
             else if (text == "I am good"){
                 resultText.text = "Wonderful Master!"
             }
-            else if (text == "")
+            else if (text == "Good Afternoon"){
+                resultText.text = "Good Afternoon Master, have you eaten lunch yet?"
+            }
+            else if (text == "I have eaten lunch"){
+                resultText.text = "That is good to hear Master."
+            }
+            else if (text == "I am hungry"){
+                resultText.text = "I recommend you make egg and bacon rolls with a salad on the side"
+            }
+
 
 
 
