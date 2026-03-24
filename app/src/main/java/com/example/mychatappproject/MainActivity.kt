@@ -1,7 +1,9 @@
 package com.example.mychatappproject
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -24,6 +26,19 @@ class MainActivity : ComponentActivity() {
         //Variable Declarations
 
         val textInput = findViewById<EditText>(R.id.txtGreetingIt)
+        val resultText = findViewById<TextView>(R.id.txtGreetingIt)
+        val checkButton = findViewById<Button>(R.id.btnCheck)
+        val resetButton = findViewById<Button>(R.id.btnReset)
+
+        //Check button with if statements and different responses
+        checkButton.setOnClickListener {
+            val text = textInput.text.toString().uppercase()
+
+
+
+
+
+        }
 
 
         }
