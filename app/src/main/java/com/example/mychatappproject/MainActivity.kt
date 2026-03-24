@@ -70,6 +70,15 @@ class MainActivity : ComponentActivity() {
             else if (text == "No I did not"){
                 resultText.text = "I am sorry Master :("
             }
+            else if (text == "You are amazing"){
+                resultText.text = "Thank you soo much Master!"
+            }
+            else {
+                resultText.text = "Not Accepted Input"
+            }
+
+
+            resultText.text = text
 
 
 
