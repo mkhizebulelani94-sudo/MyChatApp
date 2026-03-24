@@ -90,8 +90,10 @@ class MainActivity : ComponentActivity() {
             }
 
             else {
-                resultText.text = "Not Accepted Input"
+                resultText.text = "Not accepted Input"
             }
+
+            resultText.text = text
 
 
 
