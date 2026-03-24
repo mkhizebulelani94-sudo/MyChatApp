@@ -85,18 +85,13 @@ class MainActivity : ComponentActivity() {
                 resultText.text = "Thank you soo much Master!"
             }
 
-            else if (text == "Good night "){
+            else if (text == "Good night"){
                 resultText.text = "Good night Master, you must sleep well"
             }
 
             else {
                 resultText.text = "Not Accepted Input"
             }
-
-
-            resultText.text = text
-
-
 
 
 
